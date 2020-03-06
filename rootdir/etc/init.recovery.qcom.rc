@@ -5,5 +5,10 @@ on fs
 on init
     setprop sys.usb.configfs 1
 
+    start init-recovery-qcom-sh
+
 on boot
     write /sys/devices/virtual/sec/tsp/after_work 1
+
+service init-recovery-qcom-sh /init.recovery.qcom.sh
+    disabled

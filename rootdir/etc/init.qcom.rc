@@ -3,3 +3,6 @@ on charger
 
 service vendor.secure_element_hal_service /system/bin/true
     disabled
+
+service vendor.light-qti /system/bin/true
+    disabled

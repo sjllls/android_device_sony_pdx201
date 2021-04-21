@@ -9,7 +9,7 @@
 
 # HALs
 /system/bin/hw/lineage\.livedisplay@2\.0-service-sdm            u:object_r:hal_livedisplay_kona_exec:s0
-/system/bin/hw/android\.hardware\.lights-service\.sony_seine            u:object_r:hal_light_default_exec:s0
+/system/bin/hw/android\.hardware\.lights-service\.sony_seine            u:object_r:hal_light_trinket_exec:s0
 
 # IMS
 /vendor/bin/imsdatadaemon       u:object_r:ims_exec:s0

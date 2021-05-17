@@ -7,9 +7,6 @@
 # Data files
 /data/misc/display(/.*)?      u:object_r:display_misc_file:s0
 
-# HALs
-/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm            u:object_r:hal_livedisplay_kona_exec:s0
-
 # IMS
 /vendor/bin/imsdatadaemon       u:object_r:ims_exec:s0
 

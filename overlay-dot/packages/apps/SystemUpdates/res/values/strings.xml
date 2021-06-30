@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="updater_server_url" translatable="false">https://raw.githubusercontent.com/sony-trinket/OTA_configs/dot11/pdx201.json</string>
+    <string name="updater_server_url_gapps" translatable="false">https://raw.githubusercontent.com/sony-trinket/OTA_configs/dot11/pdx201.json</string>
+</resources>

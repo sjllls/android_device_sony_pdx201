@@ -30,6 +30,7 @@ PRODUCT_DEVICE := pdx201
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_NAME := dot_pdx201
 PRODUCT_MODEL := Xperia 10 II
+DOT_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
@@ -39,3 +40,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Sony/XQ-AU52/XQ-AU52 11 59.1.A.0.485 059001A000048503521489921 user/release-keys"
 
 BUILD_FINGERPRINT := Sony/XQ-AU52/XQ-AU52:11/59.1.A.0.485/059001A000048503521489921:user/release-keys
+
+# OTA
+PRODUCT_GENERIC_PROPERTIES += \
+    dot.updater.uri="https://raw.githubusercontent.com/sony-trinket/OTA_configs/dot11/pdx201.json"

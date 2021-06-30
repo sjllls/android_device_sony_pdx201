@@ -171,6 +171,10 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
     vendor/qcom/opensource/commonsys/system/bt/conf
 
+# System Update
+PRODUCT_PACKAGES += \
+    SystemUpdates
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
